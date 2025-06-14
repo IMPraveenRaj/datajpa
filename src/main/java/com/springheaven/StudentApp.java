@@ -28,7 +28,7 @@ public class StudentApp
 
         AnnotationConfigApplicationContext container= new AnnotationConfigApplicationContext(AppConfig.class);
 
-        StudentDAO studentDao = container.getBean("studentDAO", StudentDAOImpl.class);
+        StudentDAO studentDao = container.getBean("studentDAO", StudentDAO.class);
         studentDao.SaveStudent(student);
 
 

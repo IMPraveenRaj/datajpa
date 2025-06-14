@@ -43,6 +43,22 @@
           <version>6.0.10</version>
       </dependency>
 
+
+<!--      adding hiberate dependencies since this is the Vendor for the JPA In this project-->
+      <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+      <dependency>
+          <groupId>org.hibernate.orm</groupId>
+          <artifactId>hibernate-core</artifactId>
+          <version>6.2.6.Final</version>
+      </dependency>
+
+<!--      lets add an mysql dependencies to interact with mysql database-->
+      <!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+      <dependency>
+          <groupId>com.mysql</groupId>
+          <artifactId>mysql-connector-j</artifactId>
+          <version>8.0.33</version>
+      </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
